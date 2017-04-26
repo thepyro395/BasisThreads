@@ -1,14 +1,17 @@
-public class Thread2 extends Thread{
+public class Thread2 extends Thread
+{
 	   //private String name;
 	   private int[] list;
 		
-		public Thread2(String name, int[] list){
+		public Thread2(String name, int[] list)
+		{
 			//this.name=name;
 			this.list = list;
 		}
 		
 		@Override
-		public void run() {
+		public void run() 
+		{
 			long start;
 			start = System.currentTimeMillis();
 			
