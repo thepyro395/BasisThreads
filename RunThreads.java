@@ -14,7 +14,7 @@ public class RunThreads
 		Thread2 task2 = new Thread2("Second Thread", list);
 		task2.start();
 
-		Thread3 task3 = new Thread3("First Thread", list);
+		Thread3 task3 = new Thread3("Third Thread", list);
 		task3.start();
 		
 		endTime = System.currentTimeMillis();
